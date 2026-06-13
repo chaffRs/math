@@ -5,7 +5,6 @@ edition = "2024"
 description = "Small math utilities (add, absolute difference)."
 license = "MIT"
 repository = "https://github.com/chaffRs/math"
-documentation = ""
 readme = "README.md"
 keywords = ["math", "js", "javascript"]
 
