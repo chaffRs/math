@@ -1,6 +1,12 @@
 # chaff-math
 
+![no_std](https://img.shields.io/badge/no__std-yes-success)
+
 Small, dependency-free numeric helpers.
+
+**`#![no_std]`** — this crate depends only on `core`, never on the standard
+library, so it works in embedded, WASM, and other `no_std` environments (and in
+regular `std` projects with no extra setup).
 
 ## Usage
 
