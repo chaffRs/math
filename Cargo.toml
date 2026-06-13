@@ -2,8 +2,9 @@
 name = "chaff-math"
 version = "0.1.0"
 edition = "2024"
-license = ""
-repository = "git@github.com:chaffRs/math.git"
+description = "Small math utilities (add, absolute difference)."
+license = "MIT"
+repository = "https://github.com/chaffRs/math"
 documentation = ""
 readme = "README.md"
 keywords = ["math", "js", "javascript"]
