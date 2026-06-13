@@ -1,14 +1,7 @@
-pub fn add(left: u64, right: u64) -> u64 {
-    left + right
-}
+//! chaff-math — small math utilities.
 
-#[cfg(test)]
-mod tests {
-    use super::*;
+mod abs;
+mod add;
 
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
-}
+pub use abs::abs;
+pub use add::add;

@@ -2,7 +2,6 @@
 name = "chaff-math"
 version = "0.1.0"
 edition = "2024"
-dependencies = ""
 license = ""
 repository = "git@github.com:chaffRs/math.git"
 documentation = ""
